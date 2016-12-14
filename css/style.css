@@ -1,0 +1,174 @@
+
+body{
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+}
+
+figure{
+	margin: 0;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.padding{
+	padding: 15px;
+}
+
+.encabezado{
+	background-color: #ff004a;
+	padding: 20px;
+}
+
+.encabezado__titulo{
+	margin: 0;
+	font-size: 20px;
+	color: white;
+}
+
+.introduccion__img{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	border: 3px solid #354751;
+}
+
+.habilidades__img{
+	width: 150px;
+	height: 150px;
+}
+
+.introduccion__social{
+	text-align: left;
+}
+
+.introduccion{
+	background-image: url(https://media.giphy.com/media/ko7twHhomhk8E/giphy.gif);
+	background-size: cover;
+	height: 400px;
+	padding: 100px 10px;
+}
+
+.introduccion__icon{
+	color: #ff004a;
+	font-size: 40px !important;
+}
+
+.introduccion__descripcion{ 
+	font-size: 16px; 
+	color: white;
+	font-size: 20px;
+}
+
+h2{
+	color: white;
+}
+
+
+.super-titulo{
+	background-color: #354751;
+	text-align: center;
+	color: white;
+	padding: 15px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+.trabajo__img{
+	width: 250px;
+}
+
+.pie-de-pagina{
+	background-color: #354751;
+	color: white;
+}
+
+a{
+	text-decoration: none;
+
+}
+
+.btn-default{
+	background-color: #ff004a;
+	color: white ;
+	border-radius: 5px ;
+	padding: 10px 38px;
+	margin: 10px 0;
+	display: inline-block;
+}
+
+
+
+/*..media query-- TABLEB*/
+
+@media screen and (min-width: 768px){
+
+
+.introduccion__imagen{
+		display: inline-block;	
+		margin-right: 20px;
+		width: 30%;
+}
+
+.introduccion__text{
+		display: inline-block;
+		width: 40%;
+}
+
+.introduccion__imagen{
+	margin-right: 10px;
+}
+
+.introduccion__especialidad{
+		text-align: left;
+}
+
+
+.introduccion__descripcion{
+		text-align: left;
+}
+
+/* FLEXBOX */
+
+.habilidades__contenedor, .trabajo__contenedor{
+		padding: 60px 10px;
+		display: flex;
+		flex-wrap: wrap; 
+		justify-content: space-around;
+}
+
+}
+
+
+/* Media query _ Desktop*/
+
+@media screen and (min-width: 1080px){
+
+.centrar{
+	margin: 0 auto;
+	max-width: 1300px;
+}
+
+.habiliddades__article, .habilidades__article{
+
+	width: 30%;
+}
+
+	
+.habilidades_article, .trabajo__article{
+	width: 40%;
+	margin: 20px;
+}
+
+	.centrar{
+		margin: 0 auto;
+		max-width: 1500px;
+	}
+}
